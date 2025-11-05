@@ -1,4 +1,10 @@
 # Thiyagarajan V - Portfolio
+git add .
+git commit -m "Your update message"
+git push origin main
+npm run build
+npm run deploy
+
 
 A modern, production-ready React portfolio website showcasing my work as an Aspiring AI Engineer and Python Full Stack Developer.
 
