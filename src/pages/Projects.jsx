@@ -3,6 +3,20 @@ import { ExternalLink, Github, Calendar } from 'lucide-react';
 export default function Projects() {
   const projects = [
     {
+      title: 'Semantic Search Web Application',
+      year: '2025',
+      description:
+        'Designed and developed a medical chatbot prototype that processes user health queries and provides instant medical support using NLP and Django.',
+      technologies: ['Python', 'Django', 'NLP', 'Milvus' ],
+      highlights: [
+        ' Created a semantic search engine ranking website content using embeddings and vector similarity',
+        'Used Django REST, React + Vite, and Milvus Lite with BERT embeddings for efficient search.',
+        ' Enhanced UI/UX with snippet previews and ranking visualization.'
+      ],
+      github: 'https://github.com/thiyagu26v/website-content-django',
+      demo: 'https://www.linkedin.com/posts/thiyagu26v_python-django-react-activity-7384280987410571266-oP-q?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyJx5cBfFLQDzu2NCYO0ksUeNnAThTfg3wttps://www.linkedin.com/posts/thiyagarajan-v-9b3b34373_ai-chatbot-healthcare-activity-7379898844140011520-TPgK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyJx5cBfFLQDzu2NCYO0ksUeNnAThTfg3w'
+    },
+    {
       title: 'MediBot – AI Virtual Assistant',
       year: '2025',
       description:
