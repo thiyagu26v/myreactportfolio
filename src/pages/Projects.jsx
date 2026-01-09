@@ -1,7 +1,23 @@
 import { ExternalLink, Github, Calendar } from 'lucide-react';
 
 export default function Projects() {
+  
   const projects = [
+    
+    {
+      title: 'VibeVault – AI-Powered Memory Vault',
+      year: '2025',
+      description:
+        'Designed and developed an AI-powered memory vault that analyzes text, audio, and images to detect user emotions, sentiment, and meaning, enabling intelligent memory storage and retrieval.',
+      technologies: ['Python', 'Django', 'NLP', 'Transformers', 'Whisper', 'BLIP', 'Vector Embeddings' ],
+      highlights: [
+         'Built a multi-modal AI pipeline for emotion and sentiment detection from text, speech, and images.',
+    'Developed a hybrid semantic search engine using vector embeddings for accurate memory retrieval.',
+    'Integrated OpenAI Whisper for speech-to-text and BLIP for automated image understanding.'
+      ],
+      github: 'https://github.com/thiyagu26v/vibevault',
+      demo: 'https://www.linkedin.com/posts/thiyagu26v_fullstackdeveloper-django-react-activity-7407268384247046144-iKXU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyJx5cBfFLQDzu2NCYO0ksUeNnAThTfg3w'
+    },
     {
       title: 'Semantic Search Web Application',
       year: '2025',
